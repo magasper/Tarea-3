@@ -35,7 +35,6 @@
 }
 - (IBAction)sliderR:(id)sender {
     UISlider *rSlider = (UISlider *)sender;
-    //NSString *valueR;
     
     if (rSlider == _rprueba) {
         int valueR=0;
@@ -90,7 +89,7 @@
 }
 
 - (IBAction)showAlertView:(id)sender {
-    NSString *textCircle = @"hola";
+    NSString *textCircle;
     //UISwitch *hideSwitch = (UISwitch *) sender;
     
     if([_circleSwitch isOn]){
