@@ -90,7 +90,6 @@
 
 - (IBAction)showAlertView:(id)sender {
     NSString *textCircle;
-    //UISwitch *hideSwitch = (UISwitch *) sender;
     
     if([_circleSwitch isOn]){
         NSString *valueConcatenate;
